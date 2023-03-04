@@ -1,0 +1,275 @@
+/*Some of the code will be outdated because I am still learning how to make my own website*/
+body {
+    background-color: black;
+    background-image: url("codehome.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*nav bar*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    background: rgba(34, 35, 59, 0.986);
+    box-sizing: border-box;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    width: 5%;
+    padding: 10px 0;
+}
+
+.htmlnav {
+    float: left;
+    width: 9%;
+    padding: 5px 0;
+}
+
+.cssnav {
+    float: left;
+    width: 4%;
+    padding: 5px 0;
+}
+
+.fivemimage {
+    float: left;
+    width: 5%;
+    padding: 15px;
+}
+
+.luaimage {
+    float: left;
+    width: 5%;
+    padding: 14px 0;
+}
+
+.videoimage {
+    float: left;
+    width: 5%;
+    padding: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 33px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-right: 100px;
+}
+
+nav a:hover {
+    color: rgb(255, 136, 0);
+    text-shadow: 2px 2px 4px rgb(255, 145, 0);
+}
+/*nav bar*/
+
+/* CSS CSS homepage*/
+.text-wrapper {
+    background: rgba(24, 24, 41, 0.966);
+    max-width: 45%;
+    margin-left: 2%;
+    border-radius: 3%;
+    margin-top: 5%;
+}
+
+.text-wrapper h1 {
+    margin-left: 28%;
+    border-radius: 5%;
+}
+
+.text {
+    display: flex;
+    margin-left: 1%;
+}
+
+.text p {
+    width: 55%
+}
+
+.infohtml {
+    height: 230px;
+    margin-bottom: 20px;
+}
+/* HTML CSS homepage*/
+
+/* CSS CSS homepage*/
+.css-wrapper {
+    background: rgba(24, 24, 41, 0.966);
+    max-width: 41%;
+    border-radius: 5%;
+    margin-right: 2%;
+    margin-left: auto; /* Remove the right margin /
+    margin-right: auto; / Add auto margin to center the element horizontally /
+    border-radius: 5%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: flex-end; / Align the element to the right */
+}
+
+.css-wrapper h1 {
+    margin-right: 50%;
+    text-align: right; /* Align the text to the right */
+}
+
+.css-text {
+    display: flex;
+    margin-right: 1%;
+    align-items: center; /* center the element vertically /
+    justify-content: flex-end; / Align the element to the right */
+}
+
+.css-text p {
+    width: 55%;
+    text-align: left; /* Align the text to the right */
+}
+
+.infocss {
+    height: 230px;
+    margin-bottom: 20px;
+}
+/* CSS CSS homepage*/
+
+/* Fivem CSS homepage*/
+.fivem-wrapper {
+    background: rgba(24, 24, 41, 0.966);
+    max-width: 45%;
+    margin-left: 2%;
+    border-radius: 3%;
+    margin-top: 2%;
+}
+
+.fivem-wrapper h1 {
+    margin-left: 29%;
+    border-radius: 5%;
+}
+
+.fivem-text {
+    display: flex;
+    margin-left: 1%;
+}
+
+.fivem-text p {
+    margin-left: 3%;
+    width: 65%
+}
+
+.infofivem {
+    height: 210px;
+    margin-bottom: 20px;
+}
+/* Fivem CSS homepage*/
+
+/* Lua CSS homepage*/
+.lua-wrapper {
+    background: rgba(24, 24, 41, 0.966);
+    max-width: 41%;
+    border-radius: 5%;
+    margin-right: 2%;
+    margin-left: auto; /* Remove the right margin /
+    margin-right: auto; / Add auto margin to center the element horizontally /
+    border-radius: 5%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: flex-end; / Align the element to the right */
+}
+
+.lua-wrapper h1 {
+    margin-right: 49%;
+    text-align: right; /* Align the text to the right */
+}
+
+.lua-text {
+    display: flex;
+    margin-right: 1%;
+    align-items: center; /* center the element vertically /
+    justify-content: flex-end; / Align the element to the right */
+}
+
+.lua-text p {
+    width: 55%;
+    text-align: left; /* Align the text to the right */
+}
+
+.infolua {
+    height: 230px;
+    margin-bottom: 20px;
+}
+/* Lua CSS homepage*/
+
+/* Video Editing*/
+.videoediting-wrapper {
+    background: rgba(24, 24, 41, 0.966);
+    max-width: 45%;
+    margin-left: 2%;
+    border-radius: 3%;
+    margin-top: 2%;
+}
+
+.videoediting-wrapper h1 {
+    margin-left: 30%;
+    border-radius: 5%;
+}
+
+.videoediting-text {
+    display: flex;
+    margin-left: 1%;
+}
+
+.videoediting-text p {
+    margin-left: 3%;
+    width: 65%
+}
+
+.videoeditinginfo {
+    height: 210px;
+    margin-bottom: 20px;
+}
+/* Video Editing*/
+
+/* Bottom Navbar */
+.bottom-navbar {
+    padding-top: 2%;
+}
+/* Bottom Navbar*/
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+}
+/* Scrollbar */
